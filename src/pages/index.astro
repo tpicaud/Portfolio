@@ -7,7 +7,6 @@ import Experience from "@components/home/Experience.astro";
 import ProjectsWrapper from "@components/general/ProjectsWrapper.astro";
 import MetaHead from "@components/general/MetaHead.astro";
 import Test from "@components/general/test";
-import type { IProject } from "@types";
 
 const featureProjects = info.projects.reduce((accumulator, project) => {
   if (accumulator.length < 6 && project.isFeatured) {
