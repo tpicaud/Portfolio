@@ -1,8 +1,43 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import { info } from "@data";
+
+import Layout from "@layouts/Layout.astro";
+import Hero from "@components/home/Hero.astro";
+import Experience from "@components/home/Experience.astro";
+import ProjectsWrapper from "@components/general/ProjectsWrapper.astro";
+import MetaHead from "@components/general/MetaHead.astro";
+import Test from "@components/general/test";
+import type { IProject } from "@types";
+
+const featureProjects = info.projects.reduce((accumulator, project) => {
+  if (accumulator.length < 6 && project.isFeatured) {
+    accumulator.push(project);
+  }
+  return accumulator;
+}, [] as [] as { title: string; isFeatured: boolean; thumbnail: string; githubUrl: string; }[]);
 ---
 
-<Layout title="Welcome to Astro.">
-	<div class="text-4xl">My Page</div>
-</Layout>
-	
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <MetaHead
+      title={"Portfolio"}
+      description={info.about}
+      ogImageUrl={"/assets/images/profile.png"}
+    />
+  </head>
+
+  <body>
+    <Layout>
+      <Hero name={info.name} about={info.about} />
+      <Experience title={"EXPERIENCE"} details={info.experience} />
+      <Experience title={"EDUCATION"} details={info.education} />
+      <Test />
+      <!-- <ProgressBar value={50} maxValue={100} /> -->
+      <section>
+        <h2 class="w-[15rem] dark:text-light mt-16">FEATURE PROJECTS</h2>
+        <ProjectsWrapper projects={featureProjects} />
+      </section>
+    </Layout>
+  </body>
+</html>
