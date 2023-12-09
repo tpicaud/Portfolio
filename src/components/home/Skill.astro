@@ -1,0 +1,27 @@
+---
+import ProgressBar from "@components/general/ProgressBar";
+import type { ISkills } from "@types";
+
+const { title, details } = Astro.props as ISkills;
+---
+
+<section
+  class="flex items-start justify-between flex-col sm:flex-row dark:text-light mt-16"
+>
+  <h2 class="w-[15rem] mb-16">{title}</h2>
+  <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-8">
+    {
+      details.map((item) => (
+          <div class="flex justify-between items-center flex-wrap">
+            <div class="w-full relative">
+                <div class="flex items-end mb-3 gap-3">
+                    <img src={item.icon} alt={item.name} class="w-8 h-8 rounded" />
+                    <p class="text-xl dark:text-light">{item.name}</p>
+                </div>
+                <ProgressBar client:visible level={item.level} />
+            </div>
+          </div>
+      ))
+    }
+  </div>
+</section>
