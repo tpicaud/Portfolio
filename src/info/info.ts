@@ -75,17 +75,35 @@ export const info = {
   
     skills: [
       {
+        name: "Java",
+        icon: "/assets/logo/java.jpg",
+        level: 80,
+      },
+      {
         name: "Angular",
+        icon: "/assets/logo/angular.jpg",
         level: 80,
       },
       {
         name: "React",
+        icon: "/assets/logo/react.jpg",
         level: 60,
       },
       {
         name: "Rust",
+        icon: "/assets/logo/rust.jpg",
         level: 60,
-      }
+      },
+      {
+        name: "C++",
+        icon: "/assets/logo/c++.jpg",
+        level: 50,
+      },
+      {
+        name: "Python",
+        icon: "/assets/logo/python.png",
+        level: 50,
+      },
     ],
   
     socialMedia: {
