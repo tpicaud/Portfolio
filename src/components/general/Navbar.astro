@@ -38,15 +38,16 @@ import { createLogo } from "@utils";
   const themeButton = document.getElementById("theme-button");
   const browserTheme = document.querySelector('[name="theme-color"]');
   let isDark;
-  const theme = (() => {
-    if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
-      return localStorage.getItem("theme");
-    }
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      return "dark";
-    }
-    return "light";
-  })();
+  const theme = "dark"
+  // const theme = (() => {
+  //   if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
+  //     return localStorage.getItem("theme");
+  //   }
+  //   if (window.matchMedia("(prefers-color-scheme: light)").matches) {
+  //     return "light";
+  //   }
+  //   return "dark";
+  // })();
 
   if (theme === "light") {
     document.documentElement.setAttribute("data-theme", "light");
