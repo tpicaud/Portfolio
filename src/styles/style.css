@@ -11,10 +11,10 @@
 /* ========== tailwind custom styles ========== */
 @layer components {
   body {
-    @apply bg-light dark:bg-dark;
+    @apply bg-light dark:bg-dark px-8 md:px-6;
   }
   .container {
-    @apply max-w-[1112px] mx-auto px-4;
+    @apply max-w-[1200px] mx-auto;
   }
   h1,
   h2,
