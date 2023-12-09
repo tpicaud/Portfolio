@@ -21,6 +21,17 @@ export interface IExperiences {
   details: IExperience[];
 }
 
+export interface ISkill {
+  name: string;
+  icon: string;
+  level: number;
+}
+
+export interface ISkills {
+  title: string;
+  details: ISkill[];
+}
+
 export interface IProject {
   title: string;
   isFeatured: boolean;
