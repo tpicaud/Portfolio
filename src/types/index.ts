@@ -34,6 +34,7 @@ export interface ISkills {
 
 export interface IProject {
   title: string;
+  description: string;
   isFeatured: boolean;
   thumbnail: string;
   githubUrl: string;
