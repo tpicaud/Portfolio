@@ -95,13 +95,13 @@ export const info = {
         level: 60,
       },
       {
-        name: "C++",
-        icon: "/assets/logo/c++.jpg",
-        level: 50,
-      },
-      {
         name: "Python",
         icon: "/assets/logo/python.png",
+        level: 60,
+      },
+      {
+        name: "C++",
+        icon: "/assets/logo/c++.jpg",
         level: 50,
       },
     ],
