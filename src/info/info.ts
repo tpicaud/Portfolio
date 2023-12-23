@@ -115,7 +115,7 @@ export const info = {
   projects: [
     {
       title: "Portfolio",
-      description: "Portfolio built with astro, react and tailwindcss.",
+      description: "Portfolio built with astro, react and tailwindcss, using some Material UI components, inspired by a template available in the astro documentation.",
       isFeatured: true,
       thumbnail: "/assets/images/portfolio.png",
       githubUrl: "https://github.com/tpicaud/Portfolio",

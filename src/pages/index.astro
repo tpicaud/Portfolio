@@ -8,6 +8,7 @@ import ProjectsWrapper from "@components/general/ProjectsWrapper.astro";
 import MetaHead from "@components/general/MetaHead.astro";
 import Skill from "@components/home/Skill.astro";
 import Layout from "@layouts/Layout.astro";
+import Interest from "@components/home/Interest.astro";
 
 const featureProjects = info.projects.reduce((accumulator, project) => {
   if (accumulator.length < 6 && project.isFeatured) {
@@ -33,8 +34,9 @@ const featureProjects = info.projects.reduce((accumulator, project) => {
       <Experience title={"EXPERIENCE"} details={info.experience} />
       <Experience title={"EDUCATION"} details={info.education} />
       <Skill title={"MAIN SKILLS"} details={info.skills}/>
+      <Interest />
       <section>
-        <h2 class="w-[15rem] dark:text-light mt-16">PROJECTS</h2>
+        <h2 class="w-[15rem] dark:text-light mt-16">SOME PROJECTS</h2>
         <ProjectsWrapper projects={featureProjects} />
       </section>
     </Layout>

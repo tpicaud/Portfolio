@@ -32,6 +32,16 @@ export interface ISkills {
   details: ISkill[];
 }
 
+export interface IInterest {
+  name: string;
+  icon: string;
+}
+
+export interface IInterests {
+  title: string;
+  details: IInterest[];
+}
+
 export interface IProject {
   title: string;
   description: string;
