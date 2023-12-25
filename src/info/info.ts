@@ -8,7 +8,7 @@ export const info = {
       Angular, NestJS, Electron, and PostgreSQL.
       In parallel, I delved into blockchain on my own, which has allowed me to acquire a strong understanding of the underlying technologies 
       and the ecosystem. My goal is to continue learning new things, especially in the blockchain field, as I am convinced it has a 
-      great future ahead that I want to be a part of
+      great future ahead that I want to be a part of.
           `,
 
   experience: [

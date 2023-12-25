@@ -9,7 +9,7 @@ const { title, details } = Astro.props as ISkills;
   class="flex items-start justify-between flex-col sm:flex-row dark:text-light mt-16"
 >
   <h2 class="w-[15rem] mb-16">{title}</h2>
-  <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-8">
+  <div class="w-full mb-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-8">
     {
       details.map((item) => (
           <div class="flex justify-between items-center flex-wrap">
