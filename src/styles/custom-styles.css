@@ -42,3 +42,17 @@
     background-position: 0% 50%;
   }
 }
+
+@keyframes custom-bounce {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.18);
+  }
+
+}
+
+.animate-custom-bounce {
+  animation: custom-bounce 4s infinite ease-in-out;
+}

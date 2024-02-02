@@ -76,34 +76,57 @@ export const info = {
   skills: [
     {
       name: "Java",
-      icon: "/assets/logo/java.jpg",
+      icon: "/assets/logo/skills/java.jpg",
       level: 80,
     },
     {
       name: "Angular",
-      icon: "/assets/logo/angular.jpg",
+      icon: "/assets/logo/skills/angular.jpg",
       level: 80,
     },
     {
       name: "React",
-      icon: "/assets/logo/react.jpg",
+      icon: "/assets/logo/skills/react.jpg",
       level: 60,
     },
     {
       name: "Rust",
-      icon: "/assets/logo/rust.jpg",
+      icon: "/assets/logo/skills/rust.jpg",
       level: 60,
     },
     {
       name: "Python",
-      icon: "/assets/logo/python.png",
+      icon: "/assets/logo/skills/python.png",
       level: 60,
     },
     {
       name: "C++",
-      icon: "/assets/logo/c++.jpg",
+      icon: "/assets/logo/skills/c++.jpg",
       level: 50,
     },
+  ],
+
+  interests: [
+    {
+      name: "Hiking",
+      icon: "/assets/logo/interests/hiking.png",
+    },
+    {
+      name: "Sport",
+      icon: "/assets/logo/interests/sport.png",
+    },
+    {
+      name: "Music",
+      icon: "/assets/logo/interests/music.png",
+    },
+    {
+      name: "Economics",
+      icon: "/assets/logo/interests/economics.png",
+    },
+    {
+      name: "Blockchain",
+      icon: "/assets/logo/interests/blockchain.png",
+    }
   ],
 
   socialMedia: {
@@ -139,7 +162,7 @@ export const info = {
       title: "Planning poker",
       description: "Planning poker application built with Angular and NestJS, which allows users to create a room and estimate tasks using the planning poker method.",
       isFeatured: true,
-      thumbnail: "/assets/images/blockchain_explorer.png",
+      thumbnail: "/assets/images/planning_poker.png",
       githubUrl: "https://github.com/12-3-8-s9b9o9j9t/tsd-project"
     },
   ],
