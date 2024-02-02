@@ -4,12 +4,10 @@
   margin: 2rem 0;
   font-style: normal;
   font-weight: 600;
-  background: linear-gradient(
-    89.81deg,
-    #9845e8 -1.72%,
-    #33d2ff 54.05%,
-    #dd5789 99.78%
-  );
+  background: linear-gradient(89.81deg,
+      #9845e8 -1.72%,
+      #33d2ff 54.05%,
+      #dd5789 99.78%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -20,12 +18,10 @@
 }
 
 .multicolor {
-  background: linear-gradient(
-    89.81deg,
-    #9845e8 -1.72%,
-    #33d2ff 54.05%,
-    #dd5789 99.78%
-  );
+  background: linear-gradient(89.81deg,
+      #9845e8 -1.72%,
+      #33d2ff 54.05%,
+      #dd5789 99.78%);
   animation: gradient 7s ease infinite;
 }
 
@@ -44,9 +40,12 @@
 }
 
 @keyframes custom-bounce {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: scale(1);
   }
+
   50% {
     transform: scale(1.18);
   }
@@ -55,4 +54,25 @@
 
 .animate-custom-bounce {
   animation: custom-bounce 4s infinite ease-in-out;
+}
+
+
+
+.circle {
+  border: 2px solid transparent;
+  border-radius: 100px;
+  border-style: double;
+  border-color: #33d2ff;
+
+  /* border-image: linear-gradient(89.81deg,
+  #9845e8 -1.72%,
+  #33d2ff 54.05%,
+  #dd5789 99.78%);
+  border-image-slice: 1; */
+
+  width: 155px;
+  height: 155px;
+
+  /* offset the spinner to go up */
+  position: absolute;
 }
