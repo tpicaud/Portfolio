@@ -47,11 +47,45 @@
   }
 
   50% {
-    transform: scale(1.18);
+    transform: scale(1.26);
   }
 
 }
 
 .animate-custom-bounce {
   animation: custom-bounce 3.5s infinite ease-in-out;
+}
+
+
+.color-layout {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 100%;
+  right: 60%;
+  background: rgb(82,166,248);
+  background: radial-gradient(ellipse, rgba(82,166,248,1) 1%, rgba(221,87,137,0) 50%);
+}
+
+.glower {
+  /* Ajouter la lueur */
+  border-radius: 10px;
+  box-shadow: 0 0 40px rgba(255, 0, 0, 0.8); /* Ajustez les valeurs selon vos préférences */
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.glower:hover {
+  /* Ajouter la goutte */
+  box-shadow: 0 0 40px rgba(255, 0, 0, 0.8), 0 0 60px rgba(255, 0, 0, 0.8); /* Ajustez les valeurs selon vos préférences */
+}
+
+.fade-in-element {
+  opacity: 0; /* Définir l'opacité initiale à 0 pour cacher l'élément */
+  transform: translateX(-100%); /* Déplacer l'élément vers la gauche en dehors de la vue */
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out; /* Ajouter une transition pour l'effet fade-in sur une durée de 1 seconde */
+}
+
+.fade-in-element.show {
+  opacity: 1; /* Lorsque la classe "show" est ajoutée, afficher l'élément en changeant l'opacité à 1 */
+  transform: translateX(0); /* Déplacer l'élément vers la position initiale (0) pour le faire apparaître de gauche à droite */
 }

@@ -2,13 +2,7 @@ export const info = {
   baseUrl: "?",
   name: "Tom Picaud",
   jobDescription: "Blockchain addict",
-  about: `I am currently a student in software engineering, in my fifth and final year at ESIR, a French school based in Rennes.
-      I have studied a wide range of domains during my academic journey, including software modeling, cryptography, language theory, 
-      and full-stack web development. As a result, I have worked with technologies such as Java, C++, Python, Rust, as well as React,  
-      Angular, NestJS, Electron, and PostgreSQL.
-      In parallel, I delved into blockchain on my own, which has allowed me to acquire a strong understanding of the underlying technologies 
-      and the ecosystem. My goal is to continue learning new things, especially in the blockchain field, as I am convinced it has a 
-      great future ahead that I want to be a part of.
+  about: `I'm a final-year software engineering student at ESIR in Rennes, France. My diverse studies covered software modeling, cryptography, language theory, and full-stack web development. I've worked with Java, C++, Python, Rust, React, Angular, NestJS, Electron, and PostgreSQL. Independently, I've delved into blockchain, gaining a strong understanding. Eager to continue learning, particularly in blockchain, as I believe it has a promising future.
           `,
 
   experience: [
