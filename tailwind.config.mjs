@@ -18,5 +18,11 @@ export default {
 			},
 		},
 	},
+	variants: {
+		extend: {
+			width: ['responsive'],
+			height: ['responsive'],
+		},
+	},
 	plugins: [],
 }

@@ -53,26 +53,5 @@
 }
 
 .animate-custom-bounce {
-  animation: custom-bounce 4s infinite ease-in-out;
-}
-
-
-
-.circle {
-  border: 2px solid transparent;
-  border-radius: 100px;
-  border-style: double;
-  border-color: #33d2ff;
-
-  /* border-image: linear-gradient(89.81deg,
-  #9845e8 -1.72%,
-  #33d2ff 54.05%,
-  #dd5789 99.78%);
-  border-image-slice: 1; */
-
-  width: 155px;
-  height: 155px;
-
-  /* offset the spinner to go up */
-  position: absolute;
+  animation: custom-bounce 3.5s infinite ease-in-out;
 }

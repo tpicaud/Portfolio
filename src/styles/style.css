@@ -40,5 +40,28 @@
   }
 }
 
+.circle {
+  border: 2px solid transparent;
+  border-radius: 100px;
+  border-style: double;
+  border-color: #33d2ff;
+  width: 155px;
+  height: 155px;
+  position: absolute;
+}
 
+.circle-small {
+  border: 2px solid transparent;
+  border-radius: 100px;
+  border-style: double;
+  border-color: #33d2ff;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+.circle-medium {
+  width: 150px;
+  height: 150px;
+}
 
