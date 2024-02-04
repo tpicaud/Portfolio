@@ -1,5 +1,5 @@
 export const info = {
-  baseUrl: "?",
+  baseUrl: "localhost:4321",
   name: "Tom Picaud",
   jobDescription: "Blockchain addict",
   about: `I'm a final-year software engineering student at ESIR in Rennes, France. My diverse studies covered software modeling, cryptography, language theory, and full-stack web development. I've worked with Java, C++, Python, Rust, React, Angular, NestJS, Electron, and PostgreSQL. Independently, I've delved into blockchain, gaining a strong understanding. Eager to continue learning, particularly in blockchain, as I believe it has a promising future.
