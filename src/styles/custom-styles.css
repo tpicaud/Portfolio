@@ -1,7 +1,6 @@
 /* gradient heading */
 .main-heading {
   display: inline-block;
-  margin: 2rem 0;
   font-style: normal;
   font-weight: 600;
   background: linear-gradient(89.81deg,
@@ -18,11 +17,8 @@
 }
 
 .multicolor {
-  background: linear-gradient(89.81deg,
-      #9845e8 -1.72%,
-      #33d2ff 54.05%,
-      #dd5789 99.78%);
-  animation: gradient 7s ease infinite;
+  background: #e78cae
+  
 }
 
 @keyframes gradient {
@@ -58,20 +54,29 @@
 
 
 /* Wallet Popover */
-/* Style de base du popover */
 .popover-content {
-  display: none;
+  visibility: hidden;
   position: absolute;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  padding: 10px;
-  z-index: 1;
+  transform: translate(-75%, 0%);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  z-index: 100;
 }
 
 .popover-trigger {
   position: relative;
 }
 
-.popover-trigger:hover + .popover-content {
-  display: block;
+.popover-trigger:hover + .popover-content , .popover-content:hover{
+  visibility: visible;
+  opacity: 1;
 }
+
+.qrcode-container {
+  display: inline-block;
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
