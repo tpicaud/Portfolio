@@ -32,9 +32,6 @@ type ProgressBarProps = {
 
 function ProgressBar(props: ProgressBarProps) {
   const [progressValue, setProgressValue] = useState(0);
-  if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
-    console.log(localStorage.getItem("theme"));
-  }
 
   useEffect(() => {
     const interval = setInterval(() => {
