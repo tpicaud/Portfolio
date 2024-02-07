@@ -10,6 +10,7 @@ import Skill from "@components/home/Skill.astro";
 import Layout from "@layouts/Layout.astro";
 import Interest from "@components/home/Interest.astro";
 
+
 const featureProjects = info.projects.reduce((accumulator, project) => {
   if (accumulator.length < 6 && project.isFeatured) {
     accumulator.push(project);
