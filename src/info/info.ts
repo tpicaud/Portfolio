@@ -158,7 +158,7 @@ export const info = {
     },
     {
       title: "Planning poker",
-      description: "Planning poker application built with Angular and NestJS, which allows users to create a room and estimate tasks using the planning poker method.",
+      description: "Planning poker application built with Angular and NestJS, which allows users to create a room and estimate tasks duration for projects.",
       isFeatured: true,
       thumbnail: "/assets/images/planning_poker.png",
       githubUrl: "https://github.com/12-3-8-s9b9o9j9t/tsd-project"
