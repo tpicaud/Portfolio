@@ -2,7 +2,7 @@ export const info = {
   baseUrl: "localhost:4321",
   name: "Tom Picaud",
   jobDescription: "Blockchain addict",
-  about: `I'm a final-year software engineering student at ESIR in Rennes, France. My diverse studies covered software modeling, cryptography, language theory, and full-stack web development. I've worked with Java, C++, Python, Rust, React, Angular, NestJS, Electron, and PostgreSQL. Independently, I've delved into blockchain, gaining a strong understanding. Eager to continue learning, particularly in blockchain, as I believe it has a promising future.
+  about: `I'm a software engineer with a Master's degree in Computer Engineering, located in Poitiers, France. My diverse studies covered software modeling, cryptography, language theory, and full-stack web development. I've worked with Java, C++, Python, Rust, React, Angular, NestJS, Electron, and PostgreSQL. Independently, I've delved into blockchain, gaining a strong understanding. Eager to continue learning, particularly in blockchain, as I believe it has a promising future.
           `,
   ethereum: {
     address: "0x08f415734a68C83B5D99245E36f22f4e1CD29E04",
@@ -14,10 +14,15 @@ export const info = {
       name: "ALTEN",
       location: "Rennes, Brittany, France",
       startDate: "Aug 2023",
-      endDate: "Present",
+      endDate: "Sep 2024",
       description: [
-        "• Capitalize on blockchain projects from the group's laboratories",
-        "• Help interns and new employees to get started with their blockchain environments",
+        "• Capitalized on blockchain projects from the group's laboratories",
+        "• Helped interns and new employees to get started with their blockchain environments",
+        "• Aggregated and organize knowledge",
+        "• Animated a blockchain community within a team",
+        "• Developed a traceability system on Hyperledger Fabric",
+        "• Deployed Hyperledgfer Fabric networks",
+        "• Developed smart contracts"
       ],
     },
     {
@@ -26,8 +31,8 @@ export const info = {
       startDate: "Jun 2022",
       endDate: "Jul 2022",
       description: [
-        "• Development of a reliable broadcast algorithm to replace blockchain consensus",
-        "• Learning Rust, cryptographic signatures and networking",
+        "• Developed a reliable broadcast algorithm to replace blockchain consensus",
+        "• Learned Rust, cryptographic signatures and networking",
       ],
     },
 
@@ -37,9 +42,9 @@ export const info = {
       startDate: "Sep 2016",
       endDate: "Feb 2023",
       description: [
-        "• Coach of the club's senior/junior players",
-        "• Creation of customized sessions",
-        "• Leading a group of people",
+        "• Trained senior/junior players during weekly sessions",
+        "• Created customized sessions",
+        "• Led a group of people",
       ],
     },
   ],
