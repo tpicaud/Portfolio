@@ -2,9 +2,7 @@ export const info = {
   baseUrl: "localhost:4321",
   name: "Tom Picaud",
   jobDescription: "Blockchain addict",
-  about: `I'm a software engineer with a Master's degree in Computer Engineering, located in Poitiers, France. My diverse studies covered software modeling, cryptography, language theory, and full-stack web development. I've worked with Java, C++, Python, Rust, React, Angular, NestJS, Electron, and PostgreSQL. Independently, I've delved into blockchain, gaining a strong understanding of this technology.
-
-Currently working for Cryptoast, a cryptocurrencies-oriented media, I’m writing technical articles about the blockchain ecosystem for both beginners and advanced readers. Besides, I’m also building an entire cross-platform game using React.
+  about: `I'm a software engineer with a Master's degree in Computer Engineering, located in Poitiers, France. My diverse studies covered software modeling, cryptography, language theory, and full-stack web development. I've worked with Java, C++, Python, Rust, React, Angular, NestJS, Electron, and PostgreSQL. Independently, I've delved into blockchain, gaining a strong understanding of this technology. Currently working for Cryptoast, a cryptocurrencies-oriented media, I’m writing technical articles about the blockchain ecosystem for both beginner and advanced readers. Besides, I’m also building an entire cross-platform game using React.
           `,
   ethereum: {
     address: "0x08f415734a68C83B5D99245E36f22f4e1CD29E04",
