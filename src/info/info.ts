@@ -2,7 +2,9 @@ export const info = {
   baseUrl: "localhost:4321",
   name: "Tom Picaud",
   jobDescription: "Blockchain addict",
-  about: `I'm a software engineer with a Master's degree in Computer Engineering, located in Poitiers, France. My diverse studies covered software modeling, cryptography, language theory, and full-stack web development. I've worked with Java, C++, Python, Rust, React, Angular, NestJS, Electron, and PostgreSQL. Independently, I've delved into blockchain, gaining a strong understanding. Eager to continue learning, particularly in blockchain, as I believe it has a promising future.
+  about: `I'm a software engineer with a Master's degree in Computer Engineering, located in Poitiers, France. My diverse studies covered software modeling, cryptography, language theory, and full-stack web development. I've worked with Java, C++, Python, Rust, React, Angular, NestJS, Electron, and PostgreSQL. Independently, I've delved into blockchain, gaining a strong understanding of this technology.
+
+Currently working for Cryptoast, a cryptocurrencies-oriented media, I’m writing technical articles about the blockchain ecosystem for both beginners and advanced readers. Besides, I’m also building an entire cross-platform game using React.
           `,
   ethereum: {
     address: "0x08f415734a68C83B5D99245E36f22f4e1CD29E04",
@@ -10,6 +12,31 @@ export const info = {
   },
 
   experience: [
+    {
+      name: "Cryptoast",
+      location: "France",
+      startDate: "Nov 2024",
+      endDate: "Now",
+      description: [
+        "• Writing articles on Web3, blockchain and cryptocurrencies",
+        "• Popularising concepts for beginner/intermediate/advanced users of the blockchain ecosystem",
+        "• Testing and creating developer tutorials on various crypto-related technologies like AI agents, bridges, etc"
+      ]
+    },
+    {
+      name: "CityBorn",
+      location: "France",
+      startDate: "Oct 2024",
+      endDate: "Now",
+      description: [
+        "• Building alone an entire cross-platform (web+mobile) game in React, playable in solo and multiplayer mode",
+        "• Retrieving, storing, and parsing GeoJSON data dynamically",
+        "• Using google maps API",
+        "• Managing a database with MongoDB Atlas",
+        "• Creating simple and easy-to-use UX and UI",
+        "• Dealing with Google Play Console (mobile) and Vercel (web) for production deployments",
+      ]
+    },
     {
       name: "ALTEN",
       location: "Rennes, Brittany, France",
