@@ -2,7 +2,7 @@ export const info = {
   baseUrl: "localhost:4321",
   name: "Tom Picaud",
   jobDescription: "Blockchain addict",
-  about: `I'm a software engineer with a Master's degree in Computer Engineering, located in Poitiers, France. My diverse studies covered software modeling, cryptography, language theory, and full-stack web development. I've worked with Java, C++, Python, Rust, React, Angular, NestJS, Electron, and PostgreSQL. Independently, I've delved into blockchain, gaining a strong understanding of this technology. Currently working for Cryptoast, a cryptocurrencies-oriented media, I’m writing technical articles about the blockchain ecosystem for both beginner and advanced readers. Besides, I’m also building an entire cross-platform game using React.
+  about: `I'm a software engineer with a Master's degree in Computer Engineering, located in Poitiers, France. My diverse studies covered software modeling, cryptography, language theory, and full-stack web development. I've worked with Java, C++, Python, Rust, React, Angular, NestJS, Electron, and PostgreSQL. Independently, I've delved into blockchain, gaining a strong understanding of this technology. Currently working for Cryptoast, a cryptocurrencies-oriented media, I’m writing technical articles about the blockchain ecosystem (for both beginner and advanced readers) as well as developing an AI agent for task automation. Besides, I’m also building cross-platform game using React/React Native/NestJS called Cityborn.
           `,
   ethereum: {
     address: "0x08f415734a68C83B5D99245E36f22f4e1CD29E04",
@@ -16,9 +16,14 @@ export const info = {
       startDate: "Nov 2024",
       endDate: "Now",
       description: [
+        "• Developing an AI agent to help with content creation and task automation",
+        "• Creating 24/7 news feed about cryptocurrencies and blockchain",
+        "• Managing automatic article generation",        
+        "• Dealing with prompt engineering and LLMs",
+        "• Using various social network APIs (Telegram, Facebook, X/Twitter, LinkedIn, Youtube)",
         "• Writing articles on Web3, blockchain and cryptocurrencies",
         "• Popularising concepts for beginner/intermediate/advanced users of the blockchain ecosystem",
-        "• Testing and creating developer tutorials on various crypto-related technologies like AI agents, bridges, etc"
+        "• Testing and creating developer tutorials on various crypto-related technologies like AI agents, bridges, etc",
       ]
     },
     {
@@ -27,12 +32,12 @@ export const info = {
       startDate: "Oct 2024",
       endDate: "Now",
       description: [
-        "• Building alone an entire cross-platform (web+mobile) game in React, playable in solo and multiplayer mode",
-        "• Retrieving, storing, and parsing GeoJSON data dynamically",
-        "• Using google maps API",
-        "• Managing a database with MongoDB Atlas",
+        "• Building cross-platform (web + mobile) game in React, playable in solo and multiplayer",
+        "• Retrieving data from various API (Google Maps API, Wikidata, Nominatim)",
+        "• Parsing and storing GeoJSON data dynamically",
+        "• Managing PostgreSQL and Redis databases",
         "• Creating simple and easy-to-use UX and UI",
-        "• Dealing with Google Play Console (mobile) and Vercel (web) for production deployments",
+        "• Dealing with mobile/web production deployments",
       ]
     },
     {
@@ -103,18 +108,13 @@ export const info = {
 
   skills: [
     {
-      name: "Java",
-      icon: "/assets/logo/skills/java.jpg",
-      level: 80,
-    },
-    {
-      name: "Angular",
-      icon: "/assets/logo/skills/angular.jpg",
-      level: 80,
-    },
-    {
       name: "React",
       icon: "/assets/logo/skills/react.jpg",
+      level: 80,
+    },
+    {
+      name: "Java",
+      icon: "/assets/logo/skills/java.jpg",
       level: 60,
     },
     {
